@@ -1,1 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.hero_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.herder,
+.pic {
+  width: 50%;
+  height: 100vh;
+}
+
+.pic {
+  background-color: wheat;
+}
+
+.hero {
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 80%;
+  height: 80vh;
+}
